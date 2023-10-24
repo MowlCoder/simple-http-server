@@ -8,7 +8,7 @@ I coded this project just for practice purpose. The server is written in C witho
 - Serve SPA App (tested with VueJS build)
 
 ## Config
-Server supports a little configuration. You can see example in [`config.conf`](config.conf) file.
+Server supports a little configuration. You can see example in [config.conf](config.conf) file.
 
 **WARNING**: You not allowed to use comments. I lefted them to describe every configuration option more.
 ```conf
@@ -25,7 +25,7 @@ make server
 ./server
 ```
 
-**WARNING**: The configuration file must be on the path `./config.conf` relative to the executable file
+**WARNING**: The configuration file must be on the path `./config.conf` relative to the executable file. Otherwise server will be using default config values.
 
 ## Contacts
 Feel free to contact me if you have any questions by emailing me at maikezseller@gmail.com.
